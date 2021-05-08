@@ -1,0 +1,54 @@
+body {
+  background-color: rgb(255, 155, 155);
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#wrapper {
+  padding: 30px;
+  width: auto;
+  position: relative;
+  border-radius: 5px;
+  background-color: azure;
+}
+#quote-box {
+  position: relative;
+  padding-top: 10px;
+  width: 400px;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+#text {
+  font-size: larger;
+  font-weight: 100;
+}
+
+#author {
+  padding-top: 10px;
+  text-align: right;
+  font-size: smaller;
+}
+
+#new-quote {
+  float: left;
+}
+.buttons {
+  width: auto;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#tweet-button {
+  float: right;
+}
